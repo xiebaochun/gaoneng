@@ -27,17 +27,19 @@
     width: 780px;
 }
 .content-title h1{
-    font-size: 20px;
-    line-height: 35px;
-    color:#999;
+    font-size: 24px;
+    font-weight:500;
+    line-height: 40px;
+    color:#666666;
     border-bottom: 1px solid #eee;
 }
 .content-body {
     width: 780px;
+    border:1px solid #eeeeee;
 }
 .content-body > ul > li{
     width: 100%;
-    padding: 10px;
+    padding: 20px 20px 60px 20px;
     
 }
 .content-body > ul > li> p{
@@ -46,9 +48,10 @@
     color:#999999;
 }
 .content-body li h2{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 40px;
-    color:#666;
+    font-weight: 500;
+    color:#000;
 }
 .content-body li img{
     width: 100%;
