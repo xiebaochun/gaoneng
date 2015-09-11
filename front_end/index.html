@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>高能广告</title>
+        <meta name="description" content="数据存储开发指南">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="stylesheet" href="./css/common/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/common/common.css">
+        <link rel="stylesheet" href="./css/common/layout.css">
+        <link href="./css/lib/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/lib/keyboard/keyboard.css">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="top-header">
+            <div class="wrap">
+                <div class="logo-wrap">
+                    <img id="top-header-logo" src="./img/logo.png" alt="高能广告logo">
+                </div>
+                <ul class="top-header-nav fr">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="views/productIntro.html">产品介绍</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="banner">
+            <!-- <div class="container">
+              <div id="slides">
+                <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+              </div>
+            </div> -->
+            <div class="banner-slider container">
+                <div class="banner-bg-slider" id="banner-slider">
+                    <!-- <li> -->
+                        <img src="./img/index/banner_slider_01.jpg" alt="">
+                        <!-- <span class="silder-title">安全、方便接入SDK<br>保障收益</span>
+                        <a class="check-detial-bt" href="#">查看详情</a> -->
+                    <!-- </li>
+                    <li> -->
+                        <img src="./img/index/banner_slider_02.jpg" alt="">
+                       <!--  <span class="silder-title">方便快捷接入<br>实时查看收益</span>
+                        <a class="check-detial-bt" href="#">查看详情</a> -->
+                    <!-- </li>
+                    <li> -->
+                        <img src="./img/index/banner_slider_03.jpg" alt="">
+                      <!--   <span class="silder-title">专业的广告服务<br>完善地效果监测体系</span>
+                        <a class="check-detial-bt" href="#">查看详情</a> -->
+                    <!-- </li>   -->  
+                </div>
+            </div>
+            
+            <div class="login">
+                <div class="wrap">
+                    <div class="login-panel">
+                        <div class="panel-header">
+                            <span class="login-title" >登录</span>
+                            <a class="register fr" href="views/register.html">注册</a>
+                        </div>
+                        <div class="panel-body">
+                            <div class="input-group input-io clearfix">
+                                <i class="ico ico-member"></i>
+                                <input class="fr" id="username" type="text" placeholder="请输入您的邮箱">
+                            </div>
+                            <div class="input-group input-io clearfix">
+                                <i class="ico ico-lock"></i>
+                                <input class="fr" id="password" type="password" placeholder="请输入您的密码">
+                                <i class="fa fa-keyboard-o pointer" id="soft-kb"></i>
+                            </div>  
+                            <div class="input-group login-help">
+                                
+                                <label for="" id="RemenberPw-label"><input id="isRemenberPw" type="checkbox"><span>&nbsp记住密码</span></label>
+                                <a class="fr" href="views/findPassword.html">忘记密码</a>
+                            </div>                   
+                            <div class="input-group">
+                                <a class="btn" id="login-bt" href="javascript:;">登录</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="blank-50"></div>
+        <div class="content">
+            <div class="wrap">
+                <div id="content-slider-container">
+                    <ul class="content-slider">
+                        <li><a href="views/developer.html"><img src="./img/index/content_slider_01.jpg" alt="高能轮播图片"></a></li>
+                        <li><a href=""><img src="./img/index/content_slider_02.jpg" alt="高能轮播图片"></a></li>
+                        <li><a href=""><img src="./img/index/content_slider_03.jpg" alt="高能轮播图片"></a></li>
+                        
+                    </ul>    
+                    <!-- <a href="javascript:;" class="unslider-arrow prev slidesjs-previous slidesjs-navigation"></a>
+                    <a href="javascript:;" class="unslider-arrow next slidesjs-next slidesjs-navigation"></a> -->
+                    <img class="contact-us" src="./img/contact_us.png" alt="">
+                </div>
+                <div class="blank-50"></div>
+                <div class="info clearfix">
+                    <div class="gaoneng-info-panel fl">
+                        <div class="panel-header">
+                            <i class="ico ico-dynamic"></i><span class="header-title">高能动态</span>
+                            
+                            <i class="fa fa-angle-double-right fr f20 vm mt10 color-999"></i><a class="more fr mr5 color-999 f16" href="">更多</a>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="gaoneng-info-list">
+                                <li class="clearfix">
+                                    <a class="info-title fl" href="#">高能出席GMIC全球移动互联网大会</a>
+                                    <span class="created-date fr mr10">2015.07.25</span>
+                                </li>
+                                <li class="clearfix">
+                                    <a class="info-title fl" href="#">2015MMA高能与客户双双获金奖成最大赢家</a>
+                                    <span class="created-date fr mr10">2015.07.27</span>
+                                </li>
+                                <li class="clearfix">
+                                    <a class="info-title fl" href="#">高能强势登录上海CJ亮点全程实录</a>
+                                    <span class="created-date fr mr10">2015.08.02</span>
+                                </li>
+                                <li class="clearfix">
+                                    <a class="info-title fl" href="#">浪漫仲夏，高能与您约“惠”七夕</a>
+                                    <span class="created-date fr mr10">2015.08.04</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sdk-download fr">
+                        <div class="download-header">
+                            <i class="ico ico-download"></i>
+                            <span class="down-title">SDK下载</span>
+                        </div>
+                        <div class="download-body">
+                            <img class="download-img" id="android-download" src="./img/index/android_download.png" alt="">
+                            <img class="download-img" id="ios-download" src="./img/index/ios_download.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="blank-50"></div>
+                <div class="contact-wrap">
+                    <ul class="contact-list">
+                        <li><span>联系电话：</span><span class="color-front">58692162-8034</span></li>
+                        <li><span>广告主：</span><a class="qqcontact" target="_blank" href="http://sighttp.qq.com/authd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721&pic=51" alt="点击这里给我发消息" title="点击这里给我发消息"></a><!-- <i class="ico ico-qqcontact"></i> --></li>
+                        <li><span>渠道商：</span><a class="qqcontact" target="_blank" href="http://sighttp.qq.com/authd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721&pic=51" alt="点击这里给我发消息" title="点击这里给我发消息"></a><!-- <i class="ico ico-qqcontact"></i> --></li>
+                        <li><span>开发者：</span><a class="qqcontact" target="_blank" href="http://sighttp.qq.com/authd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721"><img border="0" src="http://wpa.qq.com/imgd?IDKEY=43a4b2858f57511e5d65ac470eba3e39553dec298d51c721&pic=51" alt="点击这里给我发消息" title="点击这里给我发消息"></a><!-- <i class="ico ico-qqcontact"></i> --></li>
+                    </ul>
+                </div>
+                <img class="bg-img" id="bg-img-01" src="./img/index/bg_01.png" alt="高能背景图">
+                <img class="bg-img" id="bg-img-02" src="./img/index/bg_03.png" alt="高能背景图">
+            </div>
+        </div>
+        <div class="blank-100"></div>
+        <div class="footer">
+            <div class="wrap">
+                <ul class="footer-top-list">
+                    <li><a class="color-fff" href="javascript:;">关于我们</a></li>
+                    <li><a class="color-fff" href="javascript:;">诚聘英才</a></li>
+                    <li><a class="color-fff" href="javascript:;">联系我们</a></li>
+                    <li><a class="color-fff" href="javascript:;">友情链接</a></li>
+                </ul>
+                <ul>
+                    <li>版权所有: 高能广告联盟</li>
+                    <li>ICP证: 粤B2-12345678 粤ICP备12345678号</li>
+                    <li>免费热线: 111222333</li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/lib/jquery/1.11.3/jquery-1.11.3.min.js"></script>
+        <script src="./js/lib/jquery/jquery-ui/jquery-ui.min.js"></script>
+         <!-- <script src="./js/lib/jquery/jquery-migrate-1.2.1.min.js"></script> -->
+        <script src="./js/lib/jquery/jquery.mousewheel.js"></script>
+        <script src="./js/lib/jquery.slides.js"></script>
+        <script src="./js/lib/keyboard/jquery.keyboard.js"></script>
+        <script src="./js/lib/keyboard/jquery.keyboard.extension-typing.js"></script>
+        <script src="./js/lib/keyboard/jquery.keyboard.extension-autocomplete.js"></script>
+        <script src="./js/lib/keyboard/jquery.keyboard.extension-caret.js"></script>
+        <script src="./js/lib/helper/validate.js"></script>
+        <script src="./js/common/common.js"></script>
+        <script src="./js/common/user.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

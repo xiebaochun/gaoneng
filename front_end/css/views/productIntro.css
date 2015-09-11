@@ -1,0 +1,113 @@
+.ico{
+    display: inline-block;
+    background-image: url("../../img/product-intro/sprite-product.png");
+    width: 46px;
+    height: 50px;
+    vertical-align: middle;
+}
+.ico-spot-ad{
+    background-position: 0 -197px;
+}
+.ico-app-wall{
+    background-position: 0 -295px;
+}
+.spot-ad:hover .ico-spot-ad{
+    background-position: 0 -246px;
+    
+}
+.ico-spot-ad-active{
+    background-position: 0 -246px;
+}
+.spot-ad:hover #spot-ad-link{
+    color:#039ae9;
+}
+.app-wall:hover .ico-app-wall{
+    background-position: 0 -344px;
+    
+}
+.ico-app-wall-active{
+    background-position: 0 -344px;
+    
+}
+.app-wall:hover #app-wall-link{
+    color:#039ae9;
+}
+.ad-banner:hover .ico-ad-banner{
+    background-position: 0 -49px;
+    
+}
+.ico-ad-banner-active{
+    background-position: 0 -49px;
+    
+}
+.ad-banner:hover #ad-banner-link{
+    color:#039ae9;
+}
+.link-active{
+    color:#039ae9;
+}
+.banner{
+    z-index: 100;
+    background-color:#fff;
+}
+.banner-nav{
+    width: 500px;
+    /*height: 50px;*/
+    padding:0px 0;
+    margin:0 auto;
+    margin-top:30px;
+    line-height: 50px;
+    box-shadow: 0 3px 2px #ddd;
+    text-align: center;
+    
+}
+.banner-nav li{
+    display: inline-block;
+    
+    border-left:1px solid #efefef;
+}
+.banner-nav li a{
+    display: inline-block;
+    padding:7px 25px;
+    text-decoration: none !important;
+}
+.content{
+    margin-top: -50px;
+}
+.product-box{
+    padding-top: 100px;
+}
+.product-title{
+    line-height: 40px;
+    font-size: 20px;
+    color: #999;
+}
+.wrap-product-desc{
+    padding:0 47px;
+    border:2px solid #cccccc;
+    border-left:none;
+    border-right: none;
+}
+.product-info-item{
+    line-height: 40px;
+    color:#039ae9;
+    list-style-type:disc;
+    margin:20px 0px;
+    margin-bottom:40px; 
+    clear: both;
+}
+.product-subtitle{
+    color:#333;
+    font-size: 18px;
+}
+.product-desc{
+    padding:0 25px;
+    color:#666666;
+}
+.product-desc li{
+    line-height: 24px;
+    list-style-type:disc;
+}
+.product-sdk-download a{
+    color:#039ae9;
+}

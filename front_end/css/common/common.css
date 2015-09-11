@@ -1,0 +1,170 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing:border-box;
+    /*font-weight: 500;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
+a:hover, a:active {
+    outline: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn{
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*common.css*/
+.wrap{
+    position: relative;
+    width: 998px;
+    margin:0 auto;
+}
+
+.color-000{
+    color:#000000;
+}
+.color-333{
+    color:#333333;
+}
+.color-666{
+    color:#666666;
+}
+.color-999{
+    color:#999999;
+}
+.color-eee{
+    color:#eeeeee;
+}
+.color-fff{
+    color:#ffffff;
+}
+.color-front{
+    color:#039ae9;
+}
+.color-success{color:#54b506;}
+.color-red{color:#d1050f;}
+
+.bg-color-eee{background-color: #eeeeee;}
+.bg-color-primary{background-color: #039ae9;}
+
+.input-error{
+    outline: 1px solid #ee8888 !important;
+}
+.input-success{
+    outline: 1px solid #66ee66 !important;
+}
+
+.border-none{border:none !important;}
+.border-sample{
+    border: 1px solid #999999;
+    border-radius:3px; 
+}
+.underline-none{text-decoration: none !important;}
+
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+.f26{font-size:26px;}
+.f28{font-size:28px;}
+.f30{font-size:30px;}
+.f40{font-size:40px;}
+
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt100{margin-top: 100px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mr30{margin-right: 30px;}
+.mr40{margin-right: 40px;}
+.mr50{margin-right: 50px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mb40{margin-bottom: 40px;}
+.mb50{margin-bottom: 50px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.ml40{margin-left: 40px;}
+.ml50{margin-left: 50px;}
+
+.w100p{width:100%;}
+.w50{width: 50px !important;}
+.w100{width: 100px !important;}
+.w150{width: 150px !important;}
+.w200{width: 200px !important;}
+.w250{width: 250px !important;}
+.w300{width: 300px !important;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.tc{text-align: center;}
+.vm{vertical-align: middle;}
+
+.inline-block{display: inline-block;}
+
+.pointer:hover{
+    cursor:pointer;
+}
+.clear{clear:both;}
+.clearfix{display: inline-block;}
+.clearfix:after{content:".";display: block; height:0;visibility: hidden;overflow: hidden;clear: both;}
+
+.blank-50{height:50px;}
+.blank-100{height:100px;}
+.blank-200{height:200px;}
+.blank-300{height:400px;}
+.blank-500{height:500px;}

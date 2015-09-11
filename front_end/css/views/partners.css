@@ -1,0 +1,45 @@
+.content-title h1{
+    font-size: 18px;
+    line-height: 35px;
+    color:#999;
+    border-bottom: 1px solid #eee;
+}
+.content-body {
+    padding-left: 20px;
+}
+.content-body li h2{
+    font-size: 16px;
+    line-height: 40px;
+    color:#666;
+}
+.content-body li img{
+    width: 100%;
+}
+.square{
+    display: inline-block;
+    margin-right: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: #039ae9;
+    vertical-align: middle;
+}
+.circle{
+    display: inline-block;
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    background-color: #039ae9;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.friendlink{
+    padding-left: 30px;
+}
+.friendlink li{
+    padding:0 5px;
+    display: inline-block;
+}
+.friendlink li a{
+    line-height: 33px;
+    color:#039ae9;
+}

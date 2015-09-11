@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>注册-高能广告</title>
+        <meta name="description" content="数据存储开发指南">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="stylesheet" href="../css/common/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/common/common.css">
+        <link rel="stylesheet" href="../css/common/layout.css">
+        <link rel="stylesheet" href="../css/lib/jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" href="../css/lib/keyboard/keyboard.css">
+        <link rel="stylesheet" href="../css/views/register.css">
+    </head>
+    <body>
+        <div class="top-header">
+            <div class="wrap">
+                <div class="logo-wrap">
+                    <img id="top-header-logo" src="../img/logo.png" alt="高能广告logo">
+                </div>
+                <ul class="top-header-nav fr">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">产品介绍</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            
+        </div>
+
+        <div class="blank-50"></div>
+
+        <div class="content">
+            <div class="register-panel">
+                <div class="panel-header">
+                    <span class="f22">注册</span>
+                </div>
+                <div class="panel-body">
+                    <div class="input-group">
+                        <i class="ico-register fa fa-user color-999 f20"></i>
+                        <input id="username" type="text" placeholder="请输入您的邮箱">
+                    </div>
+                    <div class="input-group">
+                        <i class="ico-register fa fa-lock color-999 f20"></i>
+                        <input class="w250 pw-input" id="password" type="password" placeholder="请输入您的密码">
+                        <i class="fa fa-keyboard-o soft-kb pointer" id="soft-kb-pw"></i>
+                    </div>
+                    <div class="input-group">
+                        <i class="ico-register fa fa-lock color-999 f20"></i>
+                        <input class="w250 pw-input" id="ensure-password" type="password" placeholder="请确认您的密码">
+                        <i class="fa fa-keyboard-o soft-kb pointer" id="soft-kb-epw"></i>
+                    </div>
+                    <div class="input-group w150">
+                        <i class="ico-register fa fa-exclamation-triangle color-999 f18"></i>
+                        <input class="w100" id="ensure-password" type="text" placeholder="请输入验证码">
+                        <img class="validate-code" id="validate-code-img" src="" alt=""> 
+                        <a class="chang-validate-bt f14" href="javascript:;" update-valid-code>换一张</a> 
+                    </div>
+
+                    <div class="input-group border-none">
+                        <a class="forum-btn " id="register-bt">注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blank-200"></div>
+
+        <div class="footer">
+            <div class="wrap">
+                <ul class="footer-top-list">
+                    <li><a class="color-fff" href="javascript:;">关于我们</a></li>
+                    <li><a class="color-fff" href="javascript:;">诚聘英才</a></li>
+                    <li><a class="color-fff" href="javascript:;">联系我们</a></li>
+                    <li><a class="color-fff" href="javascript:;">友情链接</a></li>
+                </ul>
+                <ul>
+                    <li>版权所有: 高能广告联盟</li>
+                    <li>ICP证: 粤B2-12345678 粤ICP备12345678号</li>
+                    <li>免费热线: 111222333</li>
+                </ul>
+            </div>
+        </div>
+        <img class="contact-us pointer" src="../img/contact_us.png" alt="">
+
+        <script src="../js/lib/jquery/1.11.3/jquery-1.11.3.min.js"></script>
+        <script src="../js/lib/jquery/jquery-ui/jquery-ui.min.js"></script>
+         <!-- <script src="./js/lib/jquery/jquery-migrate-1.2.1.min.js"></script> -->
+        <script src="../js/lib/jquery/jquery.mousewheel.js"></script>
+        <script src="../js/lib/keyboard/jquery.keyboard.js"></script>
+        <script src="../js/lib/keyboard/jquery.keyboard.extension-typing.js"></script>
+        <script src="../js/lib/keyboard/jquery.keyboard.extension-autocomplete.js"></script>
+        <script src="../js/lib/keyboard/jquery.keyboard.extension-caret.js"></script>
+        <script src="../js/common/common.js"></script>
+        <script src="../js/common/user.js"></script>
+        <script src="../js/lib/helper/validate.js"></script>
+        <script src="../js/views/register.js"></script>
+    </body>
+</html>
