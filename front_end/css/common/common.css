@@ -140,6 +140,7 @@ table {
 .ml40{margin-left: 40px;}
 .ml50{margin-left: 50px;}
 
+.w48p{width: 48% !important;}
 .w100p{width:100%;}
 .w50{width: 50px !important;}
 .w100{width: 100px !important;}
@@ -155,6 +156,7 @@ table {
 .vm{vertical-align: middle;}
 
 .inline-block{display: inline-block;}
+.block{display: block;}
 
 .pointer:hover{
     cursor:pointer;
